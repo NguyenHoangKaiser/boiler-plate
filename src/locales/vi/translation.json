@@ -4,9 +4,9 @@
     "description": "It's natural to want to add pages (e.g. `/about`) to your application, and routing makes this possible."
   },
   "i18nFeature": {
-    "title": "i18n Internationalization & Pluralization",
-    "selectLanguage": "Select Language",
-    "description": "Scalable apps need to support multiple languages, easily add and support multiple languages. Change the language below to see how instantly it updates the page without refreshing."
+    "title": "I18N Quốc tế hóa & Đa nguyên hóa",
+    "selectLanguage": "Chọn ngôn ngữ",
+    "description": "Các ứng dụng có thể mở rộng cần hỗ trợ nhiều ngôn ngữ, dễ dàng thêm và hỗ trợ nhiều ngôn ngữ.Thay đổi ngôn ngữ bên dưới để xem cách nó cập nhật ngay trên trang mà không cần làm mới."
   },
   "feedbackFeature": {
     "title": "Instant Feedback",

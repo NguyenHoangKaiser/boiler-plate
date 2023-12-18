@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/cssinjs": "1.18.1",
     "@reduxjs/toolkit": "1.8.5",
     "@testing-library/react": "13.4.0",
     "@types/fontfaceobserver": "^2.1.0",
@@ -16,6 +17,7 @@
     "@types/styled-components": "^5.1.26",
     "@types/webpack": "^5.28.0",
     "@types/webpack-env": "^1.18.0",
+    "antd": "5.12.2",
     "chalk": "4.1.2",
     "cross-env": "7.0.3",
     "eslint-config-prettier": "8.5.0",
@@ -54,7 +56,7 @@
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "1.10.0",
     "ts-node": "10.9.1",
-    "typescript": "4.6.4",
+    "typescript": "5.3.3",
     "web-vitals": "2.1.4"
   },
   "scripts": {
@@ -90,11 +92,14 @@
     "node": ">=14.x"
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx}": [
+    "src/**/*.{ts,tsx,js,jsx}": [
       "yarn run eslint --fix"
     ],
     "*.{md,json}": [
       "prettier --write"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11"
   }
 }
