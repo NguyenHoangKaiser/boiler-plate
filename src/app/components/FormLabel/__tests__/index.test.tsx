@@ -1,9 +1,8 @@
-import * as React from 'react';
 import { render } from '@testing-library/react';
 
-import { FormLabel } from '../index';
+import { DefaultTheme } from 'styled-components/macro';
 import { themes } from 'styles/theme/themes';
-import { DefaultTheme } from 'styled-components';
+import { FormLabel } from '../index';
 
 const renderWithTheme = (theme?: DefaultTheme) =>
   render(<FormLabel theme={theme || themes.light} />);

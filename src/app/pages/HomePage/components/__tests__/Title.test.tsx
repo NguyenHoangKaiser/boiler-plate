@@ -1,6 +1,5 @@
-import * as React from 'react';
 import { render } from '@testing-library/react';
-import { DefaultTheme } from 'styled-components';
+import { DefaultTheme } from 'styled-components/macro';
 import { themes } from 'styles/theme/themes';
 import { Title } from '../Title';
 

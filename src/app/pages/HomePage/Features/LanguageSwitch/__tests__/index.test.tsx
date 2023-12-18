@@ -1,12 +1,11 @@
-import * as React from 'react';
-import { render, fireEvent } from '@testing-library/react';
+import { fireEvent, render } from '@testing-library/react';
 import i18next from 'i18next';
-import { ThemeProvider, DefaultTheme } from 'styled-components';
+import { DefaultTheme, ThemeProvider } from 'styled-components/macro';
 
-import { LanguageSwitch } from '..';
-import { themes } from 'styles/theme/themes';
 import { i18n } from 'locales/i18n';
 import { translations } from 'locales/translations';
+import { themes } from 'styles/theme/themes';
+import { LanguageSwitch } from '..';
 
 const renderLanguageSwitch = (theme?: DefaultTheme) =>
   render(

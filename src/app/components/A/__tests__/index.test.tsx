@@ -1,9 +1,8 @@
-import * as React from 'react';
 import { render } from '@testing-library/react';
 
-import { A } from '../index';
+import { DefaultTheme } from 'styled-components/macro';
 import { themes } from 'styles/theme/themes';
-import { DefaultTheme } from 'styled-components';
+import { A } from '../index';
 
 const renderWithTheme = (theme?: DefaultTheme) =>
   render(<A theme={theme || themes.light} />);

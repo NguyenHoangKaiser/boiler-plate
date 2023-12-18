@@ -1,9 +1,9 @@
-import * as slice from '..';
-import { ThemeState, ThemeKeyType } from '../types';
+import { DefaultTheme } from 'styled-components/macro';
 import { RootState } from 'types';
+import * as slice from '..';
 import { themes } from '../../themes';
-import { DefaultTheme } from 'styled-components';
 import { selectTheme, selectThemeKey } from '../selectors';
+import { ThemeKeyType, ThemeState } from '../types';
 
 describe('theme slice', () => {
   let state: ThemeState;

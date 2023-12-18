@@ -1,9 +1,8 @@
-import * as React from 'react';
 import { render } from '@testing-library/react';
 
-import { TextButton } from '../TextButton';
+import { DefaultTheme } from 'styled-components/macro';
 import { themes } from 'styles/theme/themes';
-import { DefaultTheme } from 'styled-components';
+import { TextButton } from '../TextButton';
 
 const renderWithTheme = (theme?: DefaultTheme) =>
   render(<TextButton theme={theme || themes.light} />);

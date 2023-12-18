@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { ThemeProvider as OriginalThemeProvider } from 'styled-components';
 import { useSelector } from 'react-redux';
+import { ThemeProvider as OriginalThemeProvider } from 'styled-components/macro';
 import { useThemeSlice } from './slice';
 import { selectTheme } from './slice/selectors';
 

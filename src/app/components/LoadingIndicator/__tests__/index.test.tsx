@@ -1,9 +1,8 @@
-import * as React from 'react';
 import { render } from '@testing-library/react';
 
-import { LoadingIndicator } from '../index';
+import { DefaultTheme, ThemeProvider } from 'styled-components/macro';
 import { themes } from 'styles/theme/themes';
-import { DefaultTheme, ThemeProvider } from 'styled-components';
+import { LoadingIndicator } from '../index';
 
 const renderWithTheme = (
   props: Parameters<typeof LoadingIndicator>[number] = {},

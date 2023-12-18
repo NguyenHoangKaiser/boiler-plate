@@ -1,11 +1,10 @@
-import * as React from 'react';
-import { NotFoundPage } from '..';
-import { MemoryRouter } from 'react-router-dom';
-import { ThemeProvider } from 'styled-components';
-import { themes } from 'styles/theme/themes';
-import { HelmetProvider } from 'react-helmet-async';
-import renderer from 'react-test-renderer';
 import { Link } from 'app/components/Link';
+import { HelmetProvider } from 'react-helmet-async';
+import { MemoryRouter } from 'react-router-dom';
+import renderer from 'react-test-renderer';
+import { ThemeProvider } from 'styled-components/macro';
+import { themes } from 'styles/theme/themes';
+import { NotFoundPage } from '..';
 
 const renderPage = () =>
   renderer.create(

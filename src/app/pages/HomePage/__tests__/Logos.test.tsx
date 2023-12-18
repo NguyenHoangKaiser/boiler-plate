@@ -1,7 +1,6 @@
-import * as React from 'react';
-import { Logos } from '../Logos';
 import { render } from '@testing-library/react';
-import { ThemeProvider, DefaultTheme } from 'styled-components';
+import { DefaultTheme, ThemeProvider } from 'styled-components/macro';
+import { Logos } from '../Logos';
 
 import { themes } from 'styles/theme/themes';
 

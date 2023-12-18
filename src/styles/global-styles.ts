@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components/macro';
 import { StyleConstants } from './StyleConstants';
 /* istanbul ignore next */
 export const GlobalStyle = createGlobalStyle`
